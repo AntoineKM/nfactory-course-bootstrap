@@ -14,7 +14,7 @@ const buttonDark = document.getElementById('toggle-dark');
 
 buttonLight.addEventListener('click', toggleLight);
 buttonDark.addEventListener('click', toggleDark);
-window.addEventListener('load', function () { document.body.style.transition = 'all 2s'; });
+window.addEventListener('load', function () { document.body.style.transition = 'all .2s'; });
 
 init();
 
